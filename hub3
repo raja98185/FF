@@ -1,6 +1,7 @@
-renga raja github hgyugc
-1.git clone link
-git status
-2.git add .
-3.git commit -m "dd"
-4.git push origin main
+def findpassorfail(b):
+    if(b>35):
+        print("Pass")
+    else:
+        print("Fail")
+a=int(input("Enter a:"))
+findpassorfail(a)
